@@ -3,14 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pokedex</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>PokéDex</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body class="container">
-  <div>
-    <h1>Pokedex</h1>
-  </div>
+    <header class="head">
+        <div class="logo">
+            <img src="./images/icon.png" alt="PokeBall">
+            <h1>PokéDex</h1>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Find a Pokemon">
+            <button type="submit">Find</button>
+        </div>
+    </header>
+    <div class="content">
+        <ul id="pokemons"></ul>
+    </div>
 
 
   <script type="module" src="js/app.js"></script>

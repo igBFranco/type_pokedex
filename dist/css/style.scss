@@ -1,0 +1,256 @@
+.container {
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    .head {
+        display: flex;
+        background-color: #088ab9;
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-grow: 0;
+            margin-left: 20px;
+            img {
+                width: 80px;
+            }
+            h1 {
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+                padding: 10px;
+                text-shadow: 1px 1px 10px gray ;
+            }
+        }
+        .search {
+            flex-grow: 2;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            input {
+                height: 40px;
+                box-sizing: border-box;
+                padding-left: 10px;
+                border-radius: 8px;
+                border: none;
+                margin-right: 10px;
+                font-family: 'Lato', sans-serif;
+                
+            }
+            button {
+                height: 40px;
+                width: 60px;
+                border-radius: 8px;
+                border: none;
+                margin-right: 20px;
+                background-color: red;
+                color: white;
+                font-family: 'Lato', sans-serif;
+            }
+        }
+    }
+    .content {
+        width: 100%;
+        padding-top: 30px;
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            li {
+                display: flex;
+                flex-direction: column;
+                width: 17%;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+                border-radius: 30px;
+                margin-bottom: 30px;
+                .card-image {
+                    width: 150px;
+                }
+                h2 {
+                    color: white;
+                    font-size: 20px;
+                    font-weight: bold;
+                    padding: 10px;
+                }
+                p {
+                    color: white;
+                    padding-bottom: 10px;
+                }
+            }
+            .card-grass {
+                background-color: #73d183;
+            }
+            .card-fire {
+                background-color: #e08b4f;
+            }
+            .card-water {
+                background-color: #58a3db;
+            }
+            .card-bug {
+                background-color: #badb58;
+            }
+            .card-normal {
+                background-color: #b3b3b3;
+            }
+            .card-poison {
+                background-color: #ad5fcf;
+            }
+            .card-electric {
+                background-color: #f7de3b;
+            }
+            .card-ground {
+                background-color: #c4b991;
+            }
+            .card-fairy {
+                background-color: #f095d9;
+            }
+            .card-fighting {
+                background-color: #f02449;
+            }
+            .card-psychic {
+                background-color: #d9368a;
+            }
+            .card-rock {
+                background-color: #7d724b;
+            }
+            .card-ghost {
+                background-color: #65427a;
+            }
+            .card-ice {
+                background-color: #8de6f0;
+            }
+            .card-dragon {
+                background-color: #762ae8;
+            }
+            .card-dark {
+                background-color: #4d3125;
+            }
+            .card-steel {
+                background-color: #758b96;
+            }
+            .card-flying {
+                background-color: #ada3ee;
+            }
+           
+        }
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .container {
+        .content {
+            width: 100%;
+            padding-top: 30px;
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                li {
+                    width: 20%;
+                    padding: 10px;
+                    border-radius: 30px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    
+}
+
+@media (max-width: 768px) {
+        .container {
+            .content {
+                width: 100%;
+                padding-top: 30px;
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+                    li {
+                        width: 25%;
+                        padding: 10px;
+                        border-radius: 30px;
+                        margin-bottom: 30px;
+                    }
+                }
+            }
+        }
+        
+}   
+
+@media (max-width: 425px) {
+    .container {
+        .head {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            .logo {
+                padding-bottom: 10px;
+                margin: 0;
+            }
+            .search {
+                justify-content: center;
+                padding-bottom: 10px;
+                button {
+                    margin: 0;
+                }
+            }
+        }
+        .content {
+            width: 100%;
+            padding-top: 30px;
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                li {
+                    width: 40%;
+                    padding: 10px;
+                    border-radius: 30px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    
+}   
+
+@media (max-width: 420px) {
+    .container {
+        .head {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            .logo {
+                padding-bottom: 10px;
+                margin: 0;
+            }
+            .search {
+                justify-content: center;
+                padding-bottom: 10px;
+                button {
+                    margin: 0;
+                }
+            }
+        }
+        .content {
+            width: 100%;
+            padding-top: 30px;
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                li {
+                    width: 80%;
+                    padding: 10px;
+                    border-radius: 30px;
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+    
+}   
